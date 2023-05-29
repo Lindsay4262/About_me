@@ -1,0 +1,116 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 12px;
+}
+
+
+
+header {
+  display:initial;
+
+}
+
+
+
+main {
+  display: flex;
+}
+
+    main> div {
+      flex: 1;
+    }
+        @media only screen and (max-width: 600px) {
+      main {
+          display: none;
+      }
+    }
+
+body {
+  background-color: steelblue;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  font-size: 1.5rem;
+  font-family: serif;
+
+}
+
+.row2 {
+  display: flexbox;
+}
+
+.card-body {
+  width: 100%;
+  height: auto%;
+  background-color: white ;
+  margin-left: 0px;
+ padding: 0px;
+}
+
+.card-title {
+  text-align: center;
+  padding: 5%;
+}
+
+.card-img {
+  width: 100%;
+  height: 49%;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+.nav-link2 {
+  color: blue;
+  text-align: center;
+}
+
+img {width: 100%;
+height: auto;}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  top: 60%;
+  width: 100%;
+}
+
+.footer-text {
+  background-image: url(leavesbackground.jpg);
+  color: aliceblue;
+  text-align: left;
+  margin: 0%;
+  padding: 8%;
+  width: 100%;
+  height: 100%;
+  border: grey outset 2%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.contact-button {
+  color: white;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+  background-image: inherit;
+
+}
+
+.modal-content {
+  color: black;
+  font-size: 1rem;
+}
+
+/* This is for a later version of this website */
+
+/*
+how can i make my website more responsive to mobile users 
+add @media querries
+use % instead of px 
+ */
